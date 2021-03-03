@@ -1,0 +1,111 @@
+* {
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+body {
+    background-color: #f6f9fc;
+    background-image: url(../images/background.png);
+}
+
+header {
+    width: 100vw; /*view port width*/
+    background-color: white;
+    border-bottom: 1px solid #e6e6ea;
+    padding: 10px 0 10px 0;
+}
+
+header div {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div > a {
+    text-decoration: none;
+}
+
+header div > a img {
+    width: 12px;
+}
+
+.logo {
+    width: 120px;
+    text-align: center;
+}
+
+header div nav ul {
+    list-style-type: none;
+}
+
+header div nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+header div nav ul li a {
+    text-decoration: none;
+}
+
+header div a:hover {
+    color:#ee7470;
+}
+
+main section {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+    align-items: center;
+}
+
+main section div h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.introducing {
+    font: size 1.5rem;
+    font-weight: 300;
+    line-height: 1.5; /*hauteur ligne*/
+}
+
+.email {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+main section div button {
+    background-color: #ee7470;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin:auto;
+    cursor:pointer;
+}
+
+main section div button:hover {
+    background-color:#e4251e;
+}
+
+body > section {
+    text-align: center;
+}
+
+body > section img {
+    width: 70px;
+    margin-bottom: 12px;
+    margin-top: 50px;
+}
+
+body > section p {
+    font-size: 0.80rem;
+}
